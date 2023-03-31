@@ -1,0 +1,12 @@
+name: binder-environment
+channels:
+  - conda-forge
+dependencies:
+  - python=3.8
+  - basemap
+  - pip
+  - pip:
+    - git+https://github.com/morphomatics/morphomatics.git@v3.0#egg=morphomatics
+    - scikit-learn==1.0
+    - matplotlib
+    - ipywidgets
